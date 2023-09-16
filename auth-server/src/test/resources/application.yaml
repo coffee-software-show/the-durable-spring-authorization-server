@@ -1,0 +1,16 @@
+jwt:
+  key:
+    public: classpath:app.pub
+    private: classpath:app.key
+    id: bootiful
+  persistence:
+    password: password
+    salt: 626F6F746966756C
+spring:
+  datasource:
+    url: jdbc:tc:postgresql:15.2:///postgres
+    username: postgres
+    password: postgres
+  sql:
+    init:
+      mode: always

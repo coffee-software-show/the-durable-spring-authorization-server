@@ -1,0 +1,6 @@
+rootProject.name = 'spring-auth-server'
+include 'api'
+include 'auth-server'
+include 'client'
+include 'gateway'
+include 'processor'
